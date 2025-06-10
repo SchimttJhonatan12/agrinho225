@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #0d7609;
+}
+
+.container {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.2em;
+    color: #4CAF50; /* A green color for the title */
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+header .subtitle {
+    font-size: 1.1em;
+    color: #062055;
+    margin-top: 0;
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #55911d;
+    box-shadow: 0 2px 5px rgba(82, 194, 12, 0.1);
+}
+
+.content-section h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+.content-section p {
+    margin-bottom: 15px;
+    text-align: justify; /* Justify text for better readability */
+}
+
+.content-section ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+}
+
+.content-section ul li {
+    margin-bottom: 10px;
+    font-weight: bold; /* Make the list item heading bold */
+    color: #333;
+}
+
+.content-section ul li p {
+    font-weight: normal; /* Make the paragraph within the list item normal weight */
+    margin-top: 5px; /* Add some space between the bold list item and its paragraph */
+    padding-left: 20px; /* Indent the paragraphs within the list */
+    text-align: justify;
+}
